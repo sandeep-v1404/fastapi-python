@@ -3,7 +3,6 @@ from typing import Optional
 from fastapi import FastAPI, status
 from fastapi.exceptions import HTTPException
 from pydantic import BaseModel
-from starlette.requests import HTTPConnection
 from starlette.responses import Response
 
 app = FastAPI()
